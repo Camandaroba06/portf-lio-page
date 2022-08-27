@@ -1,0 +1,118 @@
+html {
+    background-color: #1e1e1e;
+    color: white;
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+footer,
+section {
+    padding: 5rem;
+    /*Da a distância interna dos elementos do container*/
+    max-width: 96rem;
+    /*Da a largura max do container*/
+    margin: 0 auto;
+    /*centraliza no meio o container*/
+}
+
+footer {
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.sobre {
+    background-color: #162340;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.inspector {
+    border: 5px solid red;
+}
+
+.nav {
+    padding: 2rem 6rem;
+}
+
+.nav-links {
+
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.avatar {
+    border-radius: 100%;
+    height: 24rem;
+    width: 24rem;
+    margin-right: 10rem;
+}
+
+.main {
+    padding: 5rem;
+    /*Da a distância interna dos elementos do container*/
+    max-width: 96rem;
+    /*Da a largura max do container*/
+    margin: 0 auto;
+    /*centraliza no meio o container*/
+}
+
+.main-title {
+    font-size: 4rem;
+}
+
+.main-description {
+    margin: 4rem 0;
+}
+
+.main a {
+    text-decoration: none;
+    color: white;
+}
+
+.button {
+    border-radius: 0.2rem;
+    background-color: #0039cc;
+    padding: 1rem 2rem;
+}
+
+.itens-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-img {
+    width: 24rem;
+    height: 24rem;
+    margin-right: 2.5rem;
+    border-radius: 4rem;
+}
+
+.project-title {
+    font-size: 3rem;
+}
+
+.projects {
+    margin: 2rem 0;
+}
+
+.footer-social {
+    display: flex;
+    gap: 2rem;
+}
+
+.social-links {
+    font-size: 2rem;
+}
