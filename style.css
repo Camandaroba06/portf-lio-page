@@ -138,6 +138,7 @@ h2 {
     .project-img {
         width: 38rem;
         height: auto;
+        margin-right: 0rem;
     }
 
     .nav-links {
@@ -148,5 +149,15 @@ h2 {
         width: 18rem;
         height: 18rem;
         margin-right: 0;
+    }
+}
+
+@media (max-width:378px) {
+    .project-img {
+        width: 36rem;
+    }
+
+    .project-title {
+        font-size: 2.5rem;
     }
 }
